@@ -1,6 +1,4 @@
-# -*- coding: utf-8 -*-
 """
-Created on Mon Dec 16 19:40:38 2019
 Problem Statement -  To find the price of a house based on various factors
 """
 import os
