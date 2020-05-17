@@ -1,19 +1,16 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Dec 16 19:40:38 2019
-
-@author: Shraddha
-
 Problem Statement -  To find the price of a house based on various factors
 """
-cd D:\Aegis Material\Bhavik Gandhi ML\project 1
-
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
-%time df = pd.read_csv('london_listing.csv')
+path = os.getcwd()
+%time df = pd.read_csv(path+'london_listing.csv')
 
 ##EDA
 
